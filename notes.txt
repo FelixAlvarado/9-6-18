@@ -1,0 +1,5 @@
+Explain the algorithm to reverse a linked list
+
+1) reverse the first ub-list of size k. while reversing keep track of the next node and previous node. Let the pointer to the next node be next and pointer to the previous node be prev. 
+2) head.next = reverse(next,k)
+3) return prev (prev become the new head of the list)
