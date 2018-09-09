@@ -13,3 +13,6 @@ Detecting:
 Removal: 
 1. Make the next of the last node in the loop null 
 
+Why might messages get delivered in the wrong order (whatsapp design video)?
+
+One message may get sent to one server, and another to aother server, ;making it possible that the second gets sent before the first.
