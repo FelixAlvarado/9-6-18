@@ -3,3 +3,13 @@ Explain the algorithm to reverse a linked list
 1) reverse the first ub-list of size k. while reversing keep track of the next node and previous node. Let the pointer to the next node be next and pointer to the previous node be prev. 
 2) head.next = reverse(next,k)
 3) return prev (prev become the new head of the list)
+
+How migh you detect and remove a cycle in a Linked list? 
+
+Detecting: 
+1. Hashing / visited node 
+2. Fast and slow pointers (will meet within a loop. called floyd's cycle detection). At this point you can start a node at the head, and move that as the same pace as a pointer at the loop intersection. they will meet at start of loop. Or you an get length of loop and start pointers at head and kth (length of loop) from head. they will meet at start of loop. 
+
+Removal: 
+1. Make the next of the last node in the loop null 
+
