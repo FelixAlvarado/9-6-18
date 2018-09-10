@@ -21,3 +21,8 @@ One message may get sent to one server, and another to aother server, ;making it
 Why is mergesort preferred for working with LL's?
 
 B/C linked lists have slow random-access performance, so quicksort performs poorly and heasort would be impossible
+
+Explain how using context differs from mapping over children to give implicit props
+
+With context, you only give the props to the parent componenet (with .Provider) and the child componenet (with .comsumer) without having to pass, the props through every componenet down the chain to the componenet that actually needs it. 
+
