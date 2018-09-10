@@ -26,3 +26,6 @@ Explain how using context differs from mapping over children to give implicit pr
 
 With context, you only give the props to the parent componenet (with .Provider) and the child componenet (with .comsumer) without having to pass, the props through every componenet down the chain to the componenet that actually needs it. 
 
+Why does Uber want to replicate data in a Hadoop warehouse? 
+
+They use Hadoop for expensive queries
