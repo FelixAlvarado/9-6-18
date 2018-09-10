@@ -16,3 +16,8 @@ Removal:
 Why might messages get delivered in the wrong order (whatsapp design video)?
 
 One message may get sent to one server, and another to aother server, ;making it possible that the second gets sent before the first.
+
+
+Why is mergesort preferred for working with LL's?
+
+B/C linked lists have slow random-access performance, so quicksort performs poorly and heasort would be impossible
